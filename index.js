@@ -23,4 +23,4 @@ const zebraStripes = [
 ];
 
 
-const sortedRobots = []
+const sortedRobots =
