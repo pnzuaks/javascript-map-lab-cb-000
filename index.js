@@ -39,20 +39,18 @@ const zebraStripes = [
 const coloredZebraStripes = zebraStripes.map(function(zebra) {
   var lastString = zebra.width.toString().slice(-1)
   var lastDigit = parseInt(lastString, 10)
-
-  if (lastDigit % 2 == 0) {
-    return Object.assign({},zebra, {
-      color: "black"
-    })
-  } else {
-    return Object.assign({},zebra, {
-      color: "white"
-    })
-  }
-
-
-
-
-
-
+  var isOdd = lastDigit % 2 == 0
+return {
+  ...zebra,
+  color: isOdd ? 'black' : 'white'
+}
+  // if (lastDigit % 2 == 0) {
+  //   return Object.assign({},zebra, {
+  //     color: "black"
+  //   })
+  // } else {
+  //   return Object.assign({},zebra, {
+  //     color: "white"
+  //   })
+  // }
 })
