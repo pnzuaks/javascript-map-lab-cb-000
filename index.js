@@ -37,5 +37,7 @@ const zebraStripes = [
 
 
 const coloredZebraStripes = zebraStripes.map(function(zebra) {
-  
+  return Object.assign({},zebra, {
+    
+  })
 })
