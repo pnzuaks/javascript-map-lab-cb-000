@@ -26,7 +26,7 @@ const sortedRobots = robots.map(function(robot) {
 
 const zebraStripes = [
   { width: 9.12, color: null },
-  { width: 5.71, color: null },
+  { width: 5.74, color: null },
   { width: 6.01, color: null },
   { width: 1.54, color: null },
   { width: 8.34, color: null },
