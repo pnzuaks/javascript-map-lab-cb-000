@@ -21,3 +21,6 @@ const zebraStripes = [
   { width: 0.59, color: null },
   { width: 7.31, color: null }
 ];
+
+
+const sortedRobots = []
