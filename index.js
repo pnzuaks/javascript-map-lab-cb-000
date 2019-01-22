@@ -41,14 +41,18 @@ const coloredZebraStripes = zebraStripes.map(function(zebra) {
   var lastDigit = parseInt(lastString, 10)
 
   if (lastDigit % 2 == 0) {
-    zebra.color =
+    return Object.assign({},zebra, {
+      color: "black"
+    })
+  } else {
+    return Object.assign({},zebra, {
+      color: "white"
+    })
   }
 
 
 
 
 
-  return Object.assign({},zebra, {
 
-  })
 })
