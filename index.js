@@ -11,7 +11,11 @@ const robots = [
   { name: 'Ratchet', alliance: null }
 ];
 
-const sortedRobots = robots.map(function())
+const sortedRobots = robots.map(function(robot) {
+  return Object.assign({}, robot, {
+    alliance: 
+  })
+})
 
 
 
