@@ -40,7 +40,7 @@ const coloredZebraStripes = zebraStripes.map(function(zebra) {
   var lastString = zebra.width.toString().slice(-1)
   var lastDigit = parseInt(lastString, 10)
 
-  switch(lastDigit/2 )
+  switch(lastDigit % 2 == 0)
 
 
 
