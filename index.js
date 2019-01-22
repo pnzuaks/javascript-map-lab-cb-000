@@ -12,9 +12,15 @@ const robots = [
 ];
 
 const sortedRobots = robots.map(function(robot) {
-  return Object.assign({}, robot, {
-    alliance: 
-  })
+  if (knownDecepticons.includes(robot)) {
+    return Object.assign({}, robot, {
+      alliance: 'decepticon'
+    }
+  } else {
+    return Object.assign({}, robot, {
+      alliance: 'alliance'
+    }
+  }
 })
 
 
