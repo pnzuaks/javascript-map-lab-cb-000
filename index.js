@@ -36,5 +36,5 @@ const zebraStripes = [
 ];
 
 const coloredZebraStripes = zebraStripes.map(function(zebra) {
-  
+  if ()
 })
