@@ -35,6 +35,8 @@ const zebraStripes = [
   { width: 7.31, color: null }
 ];
 
+const last numbers = 
+
 const coloredZebraStripes = zebraStripes.map(function(zebra) {
   if (zebraStripes.width )
 })
